@@ -14,7 +14,7 @@
                 "fn": "admin",
                 "hasEmail": "mailto:example@federal.gov"
             },
-            "description": "<p>These fact sheets present examples of new ways states are helping parents support their children. They highlight family-centered strategies, data-based policies and practices, and customer-focused services that child support programs are embracing across the country.</p>\n",
+            "description": "What is this all about",
             "distribution": [
                 {
                     "@type": "dcat:Distribution",
