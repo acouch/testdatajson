@@ -1,0 +1,47 @@
+{
+    "@context": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld",
+    "@id": "http://examplegov.com/data.json",
+    "@type": "dcat:Catalog",
+    "conformsTo": "https://project-open-data.cio.gov/v1.1/schema",
+    "describedBy": "https://project-open-data.cio.gov/v1.1/schema/catalog.json",
+    "dataset": [
+        {
+            "@type": "dcat:Dataset",
+            "bureauCode": [
+                "009:70"
+            ],
+            "contactPoint": {
+                "fn": "admin",
+                "hasEmail": "mailto:example@federal.gov"
+            },
+            "description": "What is this all about",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "http://www.federal.gov/search?topic[1]=1",
+                    "mediaType": "application/unknown",
+                    "format": "html",
+                    "title": "Lets test",
+                    "description": "No description provided"
+                }
+            ],
+            "identifier": "d-3022-4b9c-a8c6-80d0111d7808",
+            "keyword": [
+                    "data"
+            ],
+            "language": [
+                "en"
+            ],
+            "modified": "2015-06-01",
+            "programCode": [
+                "009:000"
+            ],
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Administration for Awesome"
+            },
+            "title": "Office of Doing it now",
+            "accessLevel": "public"
+        }
+    ]
+}
